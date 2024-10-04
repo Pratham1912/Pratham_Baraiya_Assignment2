@@ -1,0 +1,77 @@
+/* Navbar Styling */
+.navbar {
+    background: linear-gradient(135deg, #6dd5ed, #2193b0); /* Gradient background */
+}
+.navbar-brand, .nav-link {
+    color: white !important;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+.nav-link:hover {
+    color: #f7f7f7 !important;
+}
+
+/* Button Styling */
+.btn-primary {
+    background-color: #2193b0;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+.btn-primary:hover {
+    background-color: #176b8a;
+}
+.btn-edit {
+    background-color: #ffc107;
+    color: white;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+.btn-edit:hover {
+    background-color: #e0a800;
+}
+.btn-remove {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+.btn-remove:hover {
+    background-color: #c82333;
+}
+
+/* Table Styling */
+.table-bordered {
+    border: 2px solid #ddd;
+}
+.table th {
+    background-color: #2193b0;
+    color: white;
+}
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+.table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #6dd5ed;
+    color: white;
+    padding: 15px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+}
+h2 {
+    color: #333;
+}
+.container {
+    margin-top: 30px;
+}
